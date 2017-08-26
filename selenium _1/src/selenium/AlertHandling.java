@@ -20,8 +20,8 @@ public class AlertHandling {
 
 
 		//clicking the alertbutton
-		/*WebElement alertButton=driver.findElement(By.xpath("/html/body/p[1]/table/tbody/tr/td[1]/form/input"));
-		alertButton.click();*/
+		WebElement alertButton=driver.findElement(By.xpath("/html/body/p[1]/table/tbody/tr/td[1]/form/input"));
+		alertButton.click();
 
 		//switch to alert and accept it
 		/*org.openqa.selenium.Alert alert=driver.switchTo().alert();
