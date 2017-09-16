@@ -20,8 +20,8 @@ public class AlertHandling {
 
 
 		//clicking the alertbutton
-		WebElement alertButton=driver.findElement(By.xpath("/html/body/p[1]/table/tbody/tr/td[1]/form/input"));
-		alertButton.click();
+		/*WebElement alertButton=driver.findElement(By.xpath("/html/body/p[1]/table/tbody/tr/td[1]/form/input"));
+		alertButton.click();*/
 
 		//switch to alert and accept it
 		/*org.openqa.selenium.Alert alert=driver.switchTo().alert();
@@ -51,10 +51,12 @@ public class AlertHandling {
 		//switch to prompt and sendkeys
 		Alert pro_alert=driver.switchTo().alert();
 		pro_alert.sendKeys("dev");
+		Thread.sleep(2000);
 		pro_alert.accept();
-		String text=pro_alert.getText();
+		Thread.sleep(2000);
+		/*String text=pro_alert.getText();
 		
-		System.out.println(text);
+		System.out.println(text);*/
 		pro_alert.accept(); 
 
 
