@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="5690" started-at="2017-09-17T06:57:48Z" finished-at="2017-09-17T06:57:54Z">
+  <suite name="Default suite" duration-ms="7724" started-at="2017-09-17T07:30:45Z" finished-at="2017-09-17T07:30:53Z">
     <groups>
     </groups>
-    <test name="Run multiple tests" duration-ms="5690" started-at="2017-09-17T06:57:48Z" finished-at="2017-09-17T06:57:54Z">
+    <test name="Default test" duration-ms="7724" started-at="2017-09-17T07:30:45Z" finished-at="2017-09-17T07:30:53Z">
       <class name="seleniumAdv.MultClass">
-        <test-method status="PASS" signature="openingbrowser(java.lang.String)[pri:0, instance:seleniumAdv.MultClass@643b1d11]" name="openingbrowser" is-config="true" duration-ms="2727" started-at="2017-09-17T12:27:45Z" finished-at="2017-09-17T12:27:48Z">
+        <test-method status="PASS" signature="openingbrowser(java.lang.String)[pri:0, instance:seleniumAdv.MultClass@643b1d11]" name="openingbrowser" is-config="true" duration-ms="2760" started-at="2017-09-17T13:00:43Z" finished-at="2017-09-17T13:00:45Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openingbrowser -->
-        <test-method status="PASS" signature="openGoogle()[pri:0, instance:seleniumAdv.MultClass@643b1d11]" name="openGoogle" duration-ms="5690" started-at="2017-09-17T12:27:48Z" finished-at="2017-09-17T12:27:54Z">
+        <test-method status="PASS" signature="openGoogle()[pri:0, instance:seleniumAdv.MultClass@643b1d11]" name="openGoogle" duration-ms="7707" started-at="2017-09-17T13:00:45Z" finished-at="2017-09-17T13:00:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGoogle -->
-        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:seleniumAdv.MultClass@643b1d11]" name="closingbrowser" is-config="true" duration-ms="2353" started-at="2017-09-17T12:27:54Z" finished-at="2017-09-17T12:27:56Z">
+        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:seleniumAdv.MultClass@643b1d11]" name="closingbrowser" is-config="true" duration-ms="2509" started-at="2017-09-17T13:00:53Z" finished-at="2017-09-17T13:00:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingbrowser -->
       </class> <!-- seleniumAdv.MultClass -->
-    </test> <!-- Run multiple tests -->
-  </suite> <!-- Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
