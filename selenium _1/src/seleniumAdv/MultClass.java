@@ -33,6 +33,7 @@ public class MultClass {
 			driver = new ChromeDriver(); 
 
 		}
+		
 	}
 	@Test
 	public void openGoogle(){
