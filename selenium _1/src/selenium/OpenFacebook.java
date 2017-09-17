@@ -17,10 +17,10 @@ public class OpenFacebook {
 		 System.setProperty("webdriver.chrome.driver", "D://DEVIBALA//chromedriver.exe");
 		 WebDriver driver=new ChromeDriver();
 		driver.navigate().to("https://www.facebook.com/");
-		driver.findElement(By.name("email")).sendKeys("devibala246@gmail.com");
+		/*driver.findElement(By.name("email")).sendKeys("devibala246@gmail.com");
 		driver.findElement(By.name("pass")).sendKeys("shaliniravi671997...");
 		driver.findElement(By.id("loginbutton")).click();
-		driver.findElement(By.xpath("")).sendKeys("shaliniravi671997...");
+		driver.findElement(By.xpath("")).sendKeys("shaliniravi671997...");*/
 	   // driver.findElement(By.name("xhpc_message")).sendKeys("i love automation testing");
 	    //Robot robot= new Robot();
 	    //Thread.sleep(5000);

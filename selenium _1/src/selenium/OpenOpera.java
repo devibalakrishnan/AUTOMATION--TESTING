@@ -16,7 +16,7 @@ public class OpenOpera {
 		 WebDriver driver=new ChromeDriver();
 		 //driver.get("https://www.google.com/");
 		 driver.navigate().to("https://www.opera.com//");
-		 Thread.sleep(3000);
+		/* Thread.sleep(3000);
 		 driver.navigate().back();
 		 Thread.sleep(3000);
 		 driver.navigate().forward();
@@ -27,7 +27,7 @@ public class OpenOpera {
 		 Robot r = new Robot();
 		 r.keyPress(KeyEvent.VK_ENTER);
 		 r.keyRelease(KeyEvent.VK_ENTER);
-		
+		*/
 		 
 
 	}
