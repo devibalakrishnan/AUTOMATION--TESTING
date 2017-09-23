@@ -14,7 +14,7 @@
 
 		<classes>
 
-			<class name="seleniumAdv.TestGroup" />
+			<class name="seleniumAdv.HandlingDependencies" />
 			<!-- <class name="selenium.OpenFacebook"/> <class name="selenium.OpenOpera"/> -->
 
 

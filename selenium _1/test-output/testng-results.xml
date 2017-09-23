@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="31" started-at="2017-09-23T05:58:03Z" finished-at="2017-09-23T05:58:03Z">
+  <suite name="Default suite" duration-ms="31" started-at="2017-09-23T06:08:56Z" finished-at="2017-09-23T06:08:56Z">
     <groups>
-      <group name="brinjal">
-        <method signature="TestGroup.brinjal()[pri:0, instance:seleniumAdv.TestGroup@50c87b21]" name="brinjal" class="seleniumAdv.TestGroup"/>
-        <method signature="TestGroup.brinjal1()[pri:0, instance:seleniumAdv.TestGroup@50c87b21]" name="brinjal1" class="seleniumAdv.TestGroup"/>
-      </group> <!-- brinjal -->
-      <group name="ladysfinger">
-        <method signature="TestGroup.ladysfinger()[pri:0, instance:seleniumAdv.TestGroup@50c87b21]" name="ladysfinger" class="seleniumAdv.TestGroup"/>
-        <method signature="TestGroup.ladysfinger1()[pri:0, instance:seleniumAdv.TestGroup@50c87b21]" name="ladysfinger1" class="seleniumAdv.TestGroup"/>
-      </group> <!-- ladysfinger -->
     </groups>
-    <test name="Run multiple tests" duration-ms="31" started-at="2017-09-23T05:58:03Z" finished-at="2017-09-23T05:58:03Z">
-      <class name="seleniumAdv.TestGroup">
-        <test-method status="PASS" signature="brinjal1()[pri:0, instance:seleniumAdv.TestGroup@50c87b21]" name="brinjal1" duration-ms="0" started-at="2017-09-23T11:28:03Z" finished-at="2017-09-23T11:28:03Z">
+    <test name="Default test" duration-ms="31" started-at="2017-09-23T06:08:56Z" finished-at="2017-09-23T06:08:56Z">
+      <class name="seleniumAdv.HandlingDependencies">
+        <test-method status="PASS" signature="puthardwork()[pri:0, instance:seleniumAdv.HandlingDependencies@3c756e4d]" name="puthardwork" duration-ms="0" started-at="2017-09-23T11:38:56Z" finished-at="2017-09-23T11:38:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- brinjal1 -->
-        <test-method status="PASS" signature="brinjal()[pri:0, instance:seleniumAdv.TestGroup@50c87b21]" name="brinjal" duration-ms="0" started-at="2017-09-23T11:28:03Z" finished-at="2017-09-23T11:28:03Z">
+        </test-method> <!-- puthardwork -->
+        <test-method status="PASS" signature="getgoodscore()[pri:0, instance:seleniumAdv.HandlingDependencies@3c756e4d]" name="getgoodscore" duration-ms="0" started-at="2017-09-23T11:38:56Z" depends-on-methods="seleniumAdv.HandlingDependencies.puthardwork" finished-at="2017-09-23T11:38:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- brinjal -->
-        <test-method status="PASS" signature="ladysfinger()[pri:0, instance:seleniumAdv.TestGroup@50c87b21]" name="ladysfinger" duration-ms="0" started-at="2017-09-23T11:28:03Z" finished-at="2017-09-23T11:28:03Z">
+        </test-method> <!-- getgoodscore -->
+        <test-method status="PASS" signature="getjob()[pri:0, instance:seleniumAdv.HandlingDependencies@3c756e4d]" name="getjob" duration-ms="0" started-at="2017-09-23T11:38:56Z" depends-on-methods="seleniumAdv.HandlingDependencies.getgoodscore" finished-at="2017-09-23T11:38:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ladysfinger -->
-        <test-method status="PASS" signature="ladysfinger1()[pri:0, instance:seleniumAdv.TestGroup@50c87b21]" name="ladysfinger1" duration-ms="0" started-at="2017-09-23T11:28:03Z" finished-at="2017-09-23T11:28:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ladysfinger1 -->
-      </class> <!-- seleniumAdv.TestGroup -->
-    </test> <!-- Run multiple tests -->
-  </suite> <!-- Test Suite -->
+        </test-method> <!-- getjob -->
+      </class> <!-- seleniumAdv.HandlingDependencies -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
