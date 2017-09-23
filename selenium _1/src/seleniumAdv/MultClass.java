@@ -14,7 +14,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
+@SuppressWarnings("unused")
 public class MultClass {
 
 	WebDriver driver;
