@@ -4,10 +4,17 @@
 	<parameter name="browser" value="chrome" />
 	<test name="Run multiple tests">
 
+		<groups>
+			<run>
+				<include name="brinjal" />
+				<include name="ladysfinger" />
+
+			</run>
+		</groups>
 
 		<classes>
 
-			<class name="seleniumAdv.MultClass" />
+			<class name="seleniumAdv.TestGroup" />
 			<!-- <class name="selenium.OpenFacebook"/> <class name="selenium.OpenOpera"/> -->
 
 
